@@ -203,10 +203,10 @@ vendor/lib/libmmcamera_ov4688_primax_a7.so|04492dbdb83d41ca83a59c86e9c7cbb5287ff
 
 # Fingerprint
 bin/qfp-daemon
-vendor/lib64/hw/fingerprint.qcom.so
+vendor/lib64/hw/fingerprint.vendor.qcom.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/qfp.wakeup.so
-vendor/lib/hw/fingerprint.qcom.so
+vendor/lib/hw/fingerprint.vendor.qcom.so
 vendor/lib/libqfp-service.so
 vendor/lib/qfp.wakeup.so
 
