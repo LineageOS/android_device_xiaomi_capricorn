@@ -24,11 +24,5 @@ TARGET_OTA_ASSERT_DEVICE := capricorn
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
-# Kernel
-TARGET_KERNEL_CONFIG := capricorn_defconfig
-
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
 # inherit from the proprietary version
 -include vendor/xiaomi/capricorn/BoardConfigVendor.mk
