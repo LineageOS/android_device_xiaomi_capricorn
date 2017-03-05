@@ -27,6 +27,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# Kernel
+TARGET_KERNEL_CONFIG := capricorn_defconfig
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
