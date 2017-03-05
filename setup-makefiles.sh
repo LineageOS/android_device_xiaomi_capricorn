@@ -17,8 +17,6 @@
 
 set -e
 
-export INITIAL_COPYRIGHT_YEAR=2016
-
 # Required!
 export DEVICE=capricorn
 export DEVICE_COMMON=msm8996-common
