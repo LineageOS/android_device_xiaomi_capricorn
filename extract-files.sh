@@ -22,4 +22,6 @@ export DEVICE=capricorn
 export DEVICE_COMMON=msm8996-common
 export VENDOR=xiaomi
 
+export DEVICE_BRINGUP_YEAR=2017
+
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
