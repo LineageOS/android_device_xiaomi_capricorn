@@ -200,3 +200,6 @@ vendor/lib64/qfp.wakeup.so
 vendor/lib/hw/fingerprint.qcom.so
 vendor/lib/libqfp-service.so
 vendor/lib/qfp.wakeup.so
+
+# NFC firmware
+vendor/firmware/libpn548ad_fw.so
