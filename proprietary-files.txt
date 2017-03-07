@@ -1,3 +1,13 @@
+# Audio ACDB
+etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
+etc/acdbdata/Forte/Forte_General_cal.acdb
+etc/acdbdata/Forte/Forte_Global_cal.acdb
+etc/acdbdata/Forte/Forte_Handset_cal.acdb
+etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
+etc/acdbdata/Forte/Forte_Headset_cal.acdb
+etc/acdbdata/Forte/Forte_Speaker_cal.acdb
+etc/acdbdata/adsp_avs_config.acdb
+
 # Camera actuators
 vendor/lib/libactuator_ak7371_a7_liteon.so
 vendor/lib/libactuator_ak7371_a7_semco.so
