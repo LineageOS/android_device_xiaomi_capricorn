@@ -201,5 +201,12 @@ vendor/lib/hw/fingerprint.qcom.so
 vendor/lib/libqfp-service.so
 vendor/lib/qfp.wakeup.so
 
+# Graphics firmware
+etc/firmware/a530_zap.b00
+etc/firmware/a530_zap.b01
+etc/firmware/a530_zap.b02
+etc/firmware/a530_zap.elf
+etc/firmware/a530_zap.mdt
+
 # NFC firmware
 vendor/firmware/libpn548ad_fw.so
