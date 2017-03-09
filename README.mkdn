@@ -1,5 +1,13 @@
-Unified Device Tree for Xiaomi Mi 5s Plus
+Copyright (C) 2017 The LineageOS Project
+
+Device configuration for Xiaomi Mi 5s Plus
 =========================================
+
+The Xiaomi Mi 5s Plus (codenamed _"Natrium"_) is a high-end smartphone from Xiaomi.
+
+It was announced in September 2016. Release date was October 2016.
+
+## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -13,4 +21,6 @@ Battery | Li-Po 3800mAh battery
 Display | 1080 x 1920 pixels, 5.7 inches (~386 ppi pixel density)
 Camera  | Dual 13 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) flash
 
-Copyright (C) 2017 The LineageOS Project
+## Device picture
+
+![Xiaomi Mi 5s Plus](http://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-5s-plus-gray_14498_1475063604.jpg "Xiaomi Mi 5s Plus in dark gray")
