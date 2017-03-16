@@ -1,3 +1,6 @@
+# Camera
+persist.camera.cs.br=0.7
+
 # Fingerprint
 persist.qfp=true
 persist.qfp.fd_enabled=1
