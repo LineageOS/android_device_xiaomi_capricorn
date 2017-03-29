@@ -5,9 +5,9 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_capricorn
 PRODUCT_DEVICE := capricorn
-PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Mi 5s
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := MI 5s
+PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="capricorn" \
