@@ -8,6 +8,9 @@ etc/acdbdata/Forte/Forte_Headset_cal.acdb
 etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 etc/acdbdata/adsp_avs_config.acdb
 
+# Audio amplifier firmware
+etc/firmware/tfa9891.cnt
+
 # Camera actuators
 vendor/lib/libactuator_ak7371_a7_liteon.so
 vendor/lib/libactuator_ak7371_a7_semco.so
