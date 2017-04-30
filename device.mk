@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml
 
+# ConfigPanel
+PRODUCT_PACKAGES += \
+    ConfigPanel
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.target.rc
