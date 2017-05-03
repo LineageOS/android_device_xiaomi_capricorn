@@ -22,6 +22,7 @@
 #include <hardware/hardware.h>
 #include <hardware/fingerprint.h>
 #include <utils/threads.h>
+#include <fcntl.h>
 
 typedef struct {
     fingerprint_device_t base;
@@ -37,6 +38,34 @@ static union {
     const fingerprint_module_t *module;
     const hw_module_t *hw_module;
 } vendor;
+
+#define CAPTOUCH_DEVICE "/dev/captouch"
+
+/*
+* enum captouch_commands -
+*      enumeration of command options
+* @CAPTOUCH_ENABLE_HOMEKEY - cmd enables home-key
+* @CAPTOUCH_DISABLE_HOMEKEY - cmd disabled home-key
+*/
+enum captouch_commands {
+    CAPTOUCH_ENABLE_HOMEKEY = 100,
+    CAPTOUCH_DISABLE_HOMEKEY = 101
+};
+
+static void enable_home_button(bool enable)
+{
+    static int fd;
+
+    if (!fd)
+        fd = open(CAPTOUCH_DEVICE, O_RDWR);
+
+    if (fd == -1 ) {
+        ALOGE("failed to open captouch device");
+        return;
+    }
+
+    ioctl(fd, enable ? CAPTOUCH_ENABLE_HOMEKEY : CAPTOUCH_DISABLE_HOMEKEY);
+}
 
 static bool ensure_vendor_module_is_loaded(void)
 {
@@ -75,12 +104,16 @@ static int enroll(struct fingerprint_device *dev, const hw_auth_token_t *hat, ui
 {
     device_t *device = (device_t *) dev;
 
+    enable_home_button(false);
+
     return device->vendor.device->enroll(device->vendor.device, hat, gid, timeout_sec);
 }
 
 static int post_enroll(struct fingerprint_device *dev)
 {
     device_t *device = (device_t *) dev;
+
+    enable_home_button(true);
 
     return device->vendor.device->post_enroll(device->vendor.device);
 }
