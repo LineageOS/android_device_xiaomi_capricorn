@@ -22,6 +22,7 @@
 #include <hardware/hardware.h>
 #include <hardware/fingerprint.h>
 #include <utils/threads.h>
+#include <dlfcn.h>
 
 typedef struct {
     fingerprint_device_t base;
@@ -37,6 +38,29 @@ static union {
     const fingerprint_module_t *module;
     const hw_module_t *hw_module;
 } vendor;
+
+static void enable_home_button(bool enable)
+{
+    typedef void (*enable_home_button_fn)(bool);
+    static enable_home_button_fn enable_home_button_sym;
+
+    if (!enable_home_button_sym) {
+        void *handle = dlopen("libqfp-service.so", RTLD_NOLOAD | RTLD_NOW);
+
+        if (!handle) {
+            ALOGE("failed to dlopen(libqfp-service.so)");
+            return;
+        }
+
+        enable_home_button_sym = reinterpret_cast<enable_home_button_fn>(dlsym(handle,
+                "_ZN23QfpCapacitiveController16enableHomeButtonEb"));
+        dlclose(handle);
+    }
+
+    if (enable_home_button_sym) {
+        enable_home_button_sym(enable);
+    }
+}
 
 static bool ensure_vendor_module_is_loaded(void)
 {
@@ -67,6 +91,8 @@ static uint64_t pre_enroll(struct fingerprint_device *dev)
 {
     device_t *device = (device_t *) dev;
 
+    enable_home_button(false);
+
     return device->vendor.device->pre_enroll(device->vendor.device);
 }
 
@@ -81,6 +107,8 @@ static int enroll(struct fingerprint_device *dev, const hw_auth_token_t *hat, ui
 static int post_enroll(struct fingerprint_device *dev)
 {
     device_t *device = (device_t *) dev;
+
+    enable_home_button(true);
 
     return device->vendor.device->post_enroll(device->vendor.device);
 }
