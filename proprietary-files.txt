@@ -202,6 +202,7 @@ vendor/lib/libmmcamera_ov4688_primax_a7.so|04492dbdb83d41ca83a59c86e9c7cbb5287ff
 -etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 # Fingerprint
+-app/QFingerprintService/QFingerprintService.apk|041fae6862a0b1c5633e0662c1e997b496ccfa31
 bin/qfp-daemon
 vendor/lib64/hw/fingerprint.qcom.so
 vendor/lib64/libqfp-service.so
