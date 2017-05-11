@@ -16,10 +16,10 @@ Chipset | Qualcomm MSM8996 Snapdragon 821
 GPU     | Adreno 530
 Memory  | 3/4 GB RAM
 Shipped Android Version | 6.0.1
-Storage | 32/64/128 GB
+Storage | 64/128 GB
 Battery | Li-Po 3200 mAh battery
 Display | 1080 x 1920 pixels, 5.15 inches (~428 ppi pixel density)
-Camera  | Dual 12 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) flash
+Camera  | 12 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) flash
 
 ## Device picture
 
