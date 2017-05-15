@@ -185,15 +185,15 @@ etc/camera/ov4688_a7_chromatix.xml
 etc/camera/ov4688_primax_a7_chromatix.xml
 
 # Camera eeproms
-vendor/lib/libmmcamera_sony_imx378_eeprom.so|1828e6596427a951b3e2a68d4945c9d84559f61f
-vendor/lib/libmmcamera_ov4688_eeprom.so|466303c3e5e1c27b4698f1ad5e1f6bfb2aaea8ed
+vendor/lib/libmmcamera_sony_imx378_eeprom.so
+vendor/lib/libmmcamera_ov4688_eeprom.so
 
 # Camera sensors
-vendor/lib/libmmcamera_imx378.so|be77c548631419123322f2f0ccee7038f3df613b
-vendor/lib/libmmcamera_imx378_liteon.so|c4c38912bb1f5f3aba2d85a83d27954ace2b0587
-vendor/lib/libmmcamera_imx378_semco.so|7d0482f066281d88fb31a2416e6e474ec7b1fe20
-vendor/lib/libmmcamera_ov4688_a7.so|02a594be1ce6a197a67e62d2ab9c5c6e42e0742d
-vendor/lib/libmmcamera_ov4688_primax_a7.so|04492dbdb83d41ca83a59c86e9c7cbb5287ffba6
+vendor/lib/libmmcamera_imx378.so
+vendor/lib/libmmcamera_imx378_liteon.so
+vendor/lib/libmmcamera_imx378_semco.so
+vendor/lib/libmmcamera_ov4688_a7.so
+vendor/lib/libmmcamera_ov4688_primax_a7.so
 
 # Display calibration data
 -etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
@@ -202,7 +202,7 @@ vendor/lib/libmmcamera_ov4688_primax_a7.so|04492dbdb83d41ca83a59c86e9c7cbb5287ff
 -etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 # Fingerprint
--app/QFingerprintService/QFingerprintService.apk|041fae6862a0b1c5633e0662c1e997b496ccfa31
+-app/QFingerprintService/QFingerprintService.apk
 bin/qfp-daemon
 vendor/lib64/hw/fingerprint.qcom.so
 vendor/lib64/libqfp-service.so
