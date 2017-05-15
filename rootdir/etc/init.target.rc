@@ -27,6 +27,11 @@
 #
 
 on boot
+
+    # Needed to wake fingerprint
+    chown system system /dev/captouch
+    chmod 0660 /dev/captouch
+
     # Button backlight permissions
     chown system system /sys/class/leds/button-backlight2/brightness
 
@@ -38,3 +43,8 @@ service qfp-daemon /system/bin/qfp-daemon
     class late_start
     user system
     group system drmrpc diag input sdcard_rw
+
+service captouch-sh /system/bin/sh /system/etc/init.captouch.sh
+    class late_start
+    user root
+    oneshot
