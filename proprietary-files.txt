@@ -194,6 +194,7 @@ vendor/lib/libmmcamera_imx378_liteon.so
 vendor/lib/libmmcamera_imx378_semco.so
 vendor/lib/libmmcamera_ov4688_a7.so
 vendor/lib/libmmcamera_ov4688_primax_a7.so
+vendor/lib/libSonyIMX378PdafLibrary.so
 
 # Display calibration data
 -etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
