@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_65826054",
+        "filename": "qfplistener/src/org/lineageos/qfplistener/ScreenReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-05-23T19:01:40Z",
+      "side": 1,
+      "message": "setLockscreenMode(true)",
+      "revId": "816c0525212640ef59ee341c23554c7d29a4b5f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_85876461",
+        "filename": "qfplistener/src/org/lineageos/qfplistener/ScreenReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-05-23T19:01:40Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 10
+      },
+      "revId": "816c0525212640ef59ee341c23554c7d29a4b5f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_257c5872",
+        "filename": "qfplistener/src/org/lineageos/qfplistener/Startup.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-05-23T19:01:40Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 47
+      },
+      "revId": "816c0525212640ef59ee341c23554c7d29a4b5f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_45815c49",
+        "filename": "qfplistener/src/org/lineageos/qfplistener/Startup.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-05-23T19:01:40Z",
+      "side": 1,
+      "message": "new ScreenReceiver(context);",
+      "range": {
+        "startLine": 40,
+        "startChar": 57,
+        "endLine": 40,
+        "endChar": 71
+      },
+      "revId": "816c0525212640ef59ee341c23554c7d29a4b5f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
