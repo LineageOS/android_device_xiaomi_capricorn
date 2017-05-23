@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_85a0c4f5",
+        "filename": "qfplistener/src/org/lineageos/qfplistener/ScreenReceiver.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-05-23T19:00:47Z",
+      "side": 1,
+      "message": "space",
+      "revId": "a4a6d470bca6fd290447c87472c00e12ee3dde4a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
