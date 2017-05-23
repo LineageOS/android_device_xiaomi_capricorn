@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    QfpListener
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/atmel-maxtouch.kl:system/usr/keylayout/atmel-maxtouch.kl \
