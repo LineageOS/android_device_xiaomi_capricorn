@@ -203,14 +203,14 @@ vendor/lib/libSonyIMX378PdafLibrary.so
 -etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 # Fingerprint
--app/QFingerprintService/QFingerprintService.apk
-bin/qfp-daemon
-vendor/lib64/hw/fingerprint.qcom.so
-vendor/lib64/libqfp-service.so
-vendor/lib64/qfp.wakeup.so
-vendor/lib/hw/fingerprint.qcom.so
-vendor/lib/libqfp-service.so
-vendor/lib/qfp.wakeup.so
+-app/QFingerprintService/QFingerprintService.apk|f6c46966ba3b5549ffc0c8adf610672ca290d133
+bin/qfp-daemon|54e50046182601110aaf50dfba8eed192efb977b
+vendor/lib64/hw/fingerprint.qcom.so|3ce7c083ab92d69d1c64bab6071e99de7dd0f134
+vendor/lib64/libqfp-service.so|3f8767bf3537fe46e3efa0c61b0cf35a67f677bd
+vendor/lib64/qfp.wakeup.so|bea550412edd96bb5ee63c9d0ff7507fddba49bf
+vendor/lib/hw/fingerprint.qcom.so|386b7216dc657bd168cbfb0c1301ec2056877d6b
+vendor/lib/libqfp-service.so|5b8da60e05f992897ab495de6643601a85818281
+vendor/lib/qfp.wakeup.so|2a554f39d8dbaa41e652299885f2fc838bb5fd4b
 
 # Graphics firmware
 etc/firmware/a530_zap.b00
