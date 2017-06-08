@@ -203,7 +203,7 @@ vendor/lib/libSonyIMX378PdafLibrary.so
 -etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 # Fingerprint
--app/QFingerprintService/QFingerprintService.apk|b5f920185f2655423313285759d94dfbb1e1cdc6
+-app/QFingerprintService/QFingerprintService.apk
 bin/qfp-daemon
 vendor/lib64/hw/fingerprint.qcom.so
 vendor/lib64/libqfp-service.so
