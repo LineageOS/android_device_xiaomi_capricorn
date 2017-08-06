@@ -2379,7 +2379,7 @@
     </path>
 
     <path name="camcorder-mic">
-        <path name="handset-mic" />
+        <path name="handset-stereo-dmic-ef" />
     </path>
 
     <path name="camcorder-dmic">
