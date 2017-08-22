@@ -35,6 +35,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.0-service
+
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
