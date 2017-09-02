@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    fingerprint.qcom \
     QfpListener
 
 # FlipFlap
