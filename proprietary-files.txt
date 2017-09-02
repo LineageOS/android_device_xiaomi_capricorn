@@ -205,7 +205,7 @@ vendor/lib/libSonyIMX378PdafLibrary.so
 # Fingerprint
 -app/QFingerprintService/QFingerprintService.apk
 bin/qfp-daemon
-vendor/lib64/hw/fingerprint.qcom.so
+vendor/lib64/hw/fingerprint.qcom.so:vendor/lib64/hw/fingerprint.vendor.qcom.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/qfp.wakeup.so
 vendor/lib/hw/fingerprint.qcom.so
