@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4bd17e4a_5bef38e2",
+        "filename": "lineage.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-09-13T14:21:33Z",
+      "side": 1,
+      "message": "Missing comma. Should be },",
+      "range": {
+        "startLine": 5,
+        "startChar": 2,
+        "endLine": 5,
+        "endChar": 3
+      },
+      "revId": "0bb2c8e51fdda40b4eda12ca425dbf573738bed6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
