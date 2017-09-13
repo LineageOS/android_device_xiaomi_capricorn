@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "854195a2_3287684e",
+        "filename": "overlay/packages/apps/FlipFlap/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-09-13T12:36:42Z",
+      "side": 1,
+      "message": "Hmmm? Is there any DotCase-like case for capricorn?",
+      "range": {
+        "startLine": 31,
+        "startChar": 39,
+        "endLine": 31,
+        "endChar": 40
+      },
+      "revId": "974b4780e0754ce6c2778130daf37b41b00b6f2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
