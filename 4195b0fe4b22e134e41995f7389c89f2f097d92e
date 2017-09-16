@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4579be12_2b5f18ed",
+        "filename": "overlay/packages/apps/FlipFlap/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-16T18:48:17Z",
+      "side": 1,
+      "message": "But there need 1 to enamble DotView case.",
+      "range": {
+        "startLine": 30,
+        "startChar": 43,
+        "endLine": 30,
+        "endChar": 44
+      },
+      "revId": "4195b0fe4b22e134e41995f7389c89f2f097d92e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
