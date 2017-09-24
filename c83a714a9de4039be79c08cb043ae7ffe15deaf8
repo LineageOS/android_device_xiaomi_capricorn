@@ -46,6 +46,30 @@
       "revId": "c83a714a9de4039be79c08cb043ae7ffe15deaf8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "33174e18_a6d7878c",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-09-24T07:56:30Z",
+      "side": 1,
+      "message": "Must be retro compatible",
+      "parentUuid": "f664804b_b2608a4b",
+      "range": {
+        "startLine": 31,
+        "startChar": 17,
+        "endLine": 31,
+        "endChar": 22
+      },
+      "revId": "c83a714a9de4039be79c08cb043ae7ffe15deaf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
