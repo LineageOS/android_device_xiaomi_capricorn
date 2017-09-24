@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c255174d_aaa108e8",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "trailing space",
+      "range": {
+        "startLine": 2,
+        "startChar": 29,
+        "endLine": 2,
+        "endChar": 30
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "30279ca9_780dc4c9",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "trailing space",
+      "range": {
+        "startLine": 5,
+        "startChar": 40,
+        "endLine": 5,
+        "endChar": 44
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6aae7dad_69cad424",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "trailing space",
+      "range": {
+        "startLine": 21,
+        "startChar": 64,
+        "endLine": 21,
+        "endChar": 65
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5e9e7115_4cd1c63f",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "trailing space",
+      "range": {
+        "startLine": 42,
+        "startChar": 76,
+        "endLine": 42,
+        "endChar": 77
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a6402401_7ebe93be",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "space instead of cr",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 2
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f888f606_d8862098",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "tariling space",
+      "range": {
+        "startLine": 461,
+        "startChar": 19,
+        "endLine": 461,
+        "endChar": 20
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f5ca354e_9e1080b8",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 497,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "trailing space",
+      "range": {
+        "startLine": 497,
+        "startChar": 19,
+        "endLine": 497,
+        "endChar": 20
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "16bf9381_112b63cb",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 531,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "trailing space",
+      "range": {
+        "startLine": 531,
+        "startChar": 19,
+        "endLine": 531,
+        "endChar": 20
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1724df99_1de4051e",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 564,
+      "author": {
+        "id": 18219
+      },
+      "writtenOn": "2017-09-24T09:55:35Z",
+      "side": 1,
+      "message": "trailing space",
+      "range": {
+        "startLine": 564,
+        "startChar": 19,
+        "endLine": 564,
+        "endChar": 20
+      },
+      "revId": "84b6bce028df68bf2da22e9720a9d955d005149d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
