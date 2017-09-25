@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "85f05449_82ee9c35",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-09-25T07:00:55Z",
+      "side": 1,
+      "message": "If I remember correctly, this was an addition to fix NFC with NXP HAL. Is this read by the AOSP HAL?",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 29
+      },
+      "revId": "283d4881f8eeb2c7a7258d0b2452e4967d5020fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
