@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7942842d_0219a0de",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-09-25T07:09:57Z",
+      "side": 1,
+      "message": "PN548C2 or PN551 (as in 15.0 change)?",
+      "range": {
+        "startLine": 31,
+        "startChar": 17,
+        "endLine": 31,
+        "endChar": 24
+      },
+      "revId": "e6996a6119bc959fcb739466199cde5b27e614c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
