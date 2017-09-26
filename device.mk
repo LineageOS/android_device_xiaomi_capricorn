@@ -35,10 +35,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    QfpListener
-
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
