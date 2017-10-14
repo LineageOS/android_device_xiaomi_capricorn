@@ -2238,6 +2238,10 @@
         <path name="speaker-and-headphones-liquid" />
     </path>
 
+    <path name="line">
+        <path name="headphones" />
+    </path>
+
     <path name="usb-headphones">
     </path>
 
