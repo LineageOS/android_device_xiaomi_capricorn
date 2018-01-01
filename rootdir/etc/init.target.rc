@@ -37,3 +37,13 @@ service qfp-daemon /vendor/bin/qfp-daemon
     class late_start
     user system
     group system drmrpc diag input sdcard_rw
+
+service tfa-sh /system/bin/init.tfa.sh /etc/silence_short.wav 15 1
+    class main
+    user system
+    group system
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start tfa-sh
