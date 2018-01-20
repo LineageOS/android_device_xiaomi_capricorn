@@ -38,7 +38,7 @@ service qfp-daemon /vendor/bin/qfp-daemon
     user system
     group system drmrpc diag input sdcard_rw
 
-service tfa-sh /system/bin/init.tfa.sh /etc/silence_short.wav 15 1
+service tfa-sh /vendor/bin/init.tfa.sh /etc/silence_short.wav 15 1
     class main
     user system
     group system
