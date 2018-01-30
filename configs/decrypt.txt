@@ -1,0 +1,136 @@
+[CPU3_HOTPLUG_MONITOR]
+algo_type			monitor
+sampling			1000
+sensor				quiet_therm
+thresholds			40000
+thresholds_clr		37000
+actions 			hotplug_3
+action_info 		1
+
+[CLUSTER1_MONITOR]
+algo_type           monitor
+sampling            1000
+sensor              quiet_therm
+thresholds          37000
+thresholds_clr      35000
+actions             cluster1
+action_info         1824000
+
+[CLUSTER1_MONITOR2]
+algo_type           monitor
+sampling            1000
+sensor              quiet_therm
+thresholds          42000
+thresholds_clr      40000
+actions             cluster1
+action_info         1401600
+
+[CLUSTER0_MONITOR]
+algo_type           monitor
+sampling            1000
+sensor              quiet_therm
+thresholds          42000
+thresholds_clr      40000
+actions             cluster0
+action_info         1401600
+
+[SKIN-SS-CPUS-ALL]
+algo_type ss
+sampling 250
+sensor quiet_therm
+device cpu_voltage
+set_point 44000
+set_point_clr 43000
+time_constant 0
+device_perf_floor 1132800
+
+[SKIN-SS-CPUS]
+algo_type ss
+sampling 250
+sensor quiet_therm
+device cpu_voltage
+set_point 48000
+set_point_clr 44000
+time_constant 0
+
+[SS-GPU]
+#algo_type        ss
+sampling          250
+sensor            quiet_therm
+device            gpu
+set_point         44000
+set_point_clr     42000
+time_constant     0
+
+[GPU_management]
+algo_type         monitor
+sensor            quiet_therm
+sampling          1000
+thresholds        40000         42000
+thresholds_clr    37000         40000
+actions           gpu           gpu
+action_info       510000000     401800000
+
+
+[SKIN-BATTERY-MONITOR]
+algo_type 			monitor
+sampling 			1000
+sensor 				quiet_therm
+thresholds 			39000		41000		44000		55000
+thresholds_clr		37000		39000		41000		42000
+actions 		 	battery 	battery 	battery		battery
+action_info			0		1		2		3
+
+[CAMERA-CAMCORDER-MONITOR]
+algo_type           monitor
+sampling            1000
+sensor              xo_therm_buf
+thresholds          39000               42000               50000
+thresholds_clr      37000               39000               42000
+actions             camera+camcorder    camera+camcorder    camera+camcorder
+action_info         1                   2                   3
+
+[HISTORY-XO]
+algo_type 			history
+sampling 			1000
+sensor 				quiet_therm
+thresholds 			31000		41000		46000		51000		56000		61000
+thresholds_clr 			30000		40000		45000		50000		55000		60000
+actions 		 	history_log 	history_log 	history_log	history_log	history_log	history_log
+action_info			0		1		2		3		4		5
+
+[HISTORY-CPU0]
+algo_type 			history
+sampling 			1000
+sensor 				tsens_tz_sensor3
+thresholds 			61000		76000		91000
+thresholds_clr 			60000		75000		90000
+actions 		 	history_log 	history_log	history_log
+action_info			0		1		2
+
+[HISTORY-CPU4]
+algo_type 			history
+sampling 			1000
+sensor 				tsens_tz_sensor8
+thresholds 			61000		76000		91000
+thresholds_clr 			60000		75000		90000
+actions 		 	history_log 	history_log 	history_log
+action_info			0		1		2
+
+[HISTORY-MODEM-PA0]
+algo_type 			history
+sampling 			1000
+sensor 				pa_therm0
+thresholds 			31000		36000		41000		46000		51000		56000		61000
+thresholds_clr 			30000		35000		40000		45000		50000		55000		60000
+actions 		 	history_log 	history_log 	history_log	history_log	history_log	history_log	history_log
+action_info			0		1		2		3		4		5		6
+
+[HISTORY-MODEM-PA1]
+algo_type 			history
+sampling 			1000
+sensor 				pa_therm1
+thresholds 			31000		36000		41000		46000		51000		56000		61000
+thresholds_clr 			30000		35000		40000		45000		50000		55000		60000
+actions 		 	history_log 	history_log 	history_log	history_log	history_log	history_log	history_log
+action_info			0		1		2		3		4		5		6
