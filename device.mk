@@ -62,5 +62,9 @@ PRODUCT_PACKAGES += \
     init.tfa.sh \
     tinyplay
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.1-service.xiaomi_8996
+
 # Inherit from msm8996-common
 $(call inherit-product, device/xiaomi/msm8996-common/msm8996.mk)
