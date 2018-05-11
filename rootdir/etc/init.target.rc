@@ -46,4 +46,5 @@ service tfa-sh /vendor/bin/init.tfa.sh /vendor/etc/silence_short.wav 15 1
     oneshot
 
 on property:sys.boot_completed=1
+    write /sys/module/msm_performance/parameters/cpu_max_freq "0:1996800 1:1996800 2:2150400 3:2150400"
     start tfa-sh
