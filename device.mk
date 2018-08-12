@@ -31,10 +31,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Snap
 
-# ConfigPanel
-PRODUCT_PACKAGES += \
-    ConfigPanel
-
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.target.rc
