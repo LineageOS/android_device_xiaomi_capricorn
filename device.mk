@@ -44,8 +44,8 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service
 
 # FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
+# PRODUCT_PACKAGES += \
+#     FlipFlap
 
 # Input
 PRODUCT_COPY_FILES += \
