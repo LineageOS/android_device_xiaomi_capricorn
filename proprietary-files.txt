@@ -211,9 +211,6 @@ bin/qfp-daemon:vendor/bin/qfp-daemon
 vendor/lib64/hw/fingerprint.qcom.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/qfp.wakeup.so
-vendor/lib/hw/fingerprint.qcom.so
-vendor/lib/libqfp-service.so
-vendor/lib/qfp.wakeup.so
 
 # Graphics firmware
 etc/firmware/a530_zap.b00:vendor/firmware/a530_zap.b00
