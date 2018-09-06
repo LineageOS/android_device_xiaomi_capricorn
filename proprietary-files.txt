@@ -208,7 +208,7 @@ etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_dat
 # Fingerprint
 -app/QFingerprintService/QFingerprintService.apk
 bin/qfp-daemon:vendor/bin/qfp-daemon
-vendor/lib64/hw/fingerprint.qcom.so|fb89a6f753d942c1e516b5a8ee84f496d9ad3060
+vendor/lib64/hw/fingerprint.qcom.so|019dfc2f66f3ee9c4d43d0f5e33ff8f6bf62f9b7
 vendor/lib64/libqfp-service.so
 vendor/lib64/qfp.wakeup.so
 
