@@ -36,7 +36,7 @@ on post-fs-data
 service qfp-daemon /vendor/bin/qfp-daemon
     class late_start
     user system
-    group system drmrpc diag input sdcard_rw
+    group system drmrpc diag input
 
 service tfa-sh /vendor/bin/init.tfa.sh /vendor/etc/silence_short.wav 15 1
     class main
