@@ -2,9 +2,5 @@
   {
     "repository": "android_device_xiaomi_msm8996-common",
     "target_path": "device/xiaomi/msm8996-common"
-  },
-  {
-    "repository": "android_packages_apps_FlipFlap",
-    "target_path": "packages/apps/FlipFlap"
   }
 ]
